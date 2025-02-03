@@ -59,10 +59,16 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Msela_chui_Tech.sendMessage(Qr_Code_By_Msela_chui_Tech.user.id, { text: 'VENOCYBER-MD;;;' + b64data });
 	
 				   let MSELA_CHUI_MD_TEXT = `
-*_Qr Code By Msela chui Tech_*
-*_Made With 🤍_*
+
 	
-_Don't Forget To Give Star To My Repo_`
+━━━━━━━━━━━❀˖°❀˖°❀˖°┗━━━━━━━━━━━             
+|| *_👌 hello guys this is youre session id_*
+|| *_✅ you will need it to upload on all bots of 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓_*
+|| *_📡 currently working on 𝐌𝐒𝐄𝐋𝐀-𝐂𝐇𝐔𝐈-𝐌𝐀𝐒𝐓𝐄𝐑-𝐁𝐎𝐓_*
+|| *_📌 join all of whatsapp group and channel for our updates daily_*
+||   |❀˖|*group* : https://chat.whatsapp.com/Bqb6oEUxAneAqxBUBfNdLr_*
+||   |❀˖|*channel* : https://whatsapp.com/channel/0029VakhqAaLtOjBJOL9Wn1q
+|| *_Don't Forget To Give Star To My Repo_*`
 	 await Qr_Code_By_Msela_chui_Tech.sendMessage(Qr_Code_By_Msela_chui_Tech.user.id,{text:MSELA_CHUI_MD_TEXT},{quoted:session})
 
 
