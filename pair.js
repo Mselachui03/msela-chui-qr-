@@ -54,7 +54,7 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Msela_chui_Tech.sendMessage(Pair_Code_By_Msela_chui_Tech.user.id, { text: + b64data });
+               let session = await Pair_Code_By_Msela_chui_Tech.sendMessage(Pair_Code_By_Msela_chui_Tech.user.id, { text: '' + b64data });
 
                let MSELA_CHUI_MD_TEXT = `
                
